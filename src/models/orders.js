@@ -29,10 +29,3 @@ const orderSchema = new mongoose.Schema({
 const order = new mongoose.model("Order",orderSchema)
 
 module.exports = order;
-
-
-// "order_id": "123",
-// "item_name":"Samsung Mobile",
-// "cost":"400",
-// "order_date":"2020/12/01",
-// "delivery_date":"2020/12/11"
